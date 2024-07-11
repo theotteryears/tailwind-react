@@ -1,16 +1,16 @@
 export default function App() {
   return (
     <div className="grid grid-cols-6">
-      <h1 className="col-span-4 col-start-2 m-3 rounded-md border-4 border-black bg-yellow-100 p-4 text-center text-4xl text-black">
+      <h1 className="col-span-4 col-start-2 m-3 rounded-md bg-yellow-100 p-4 text-center text-4xl text-black">
         LAYOUT TEST
       </h1>
-      <h2 className="col-span-2 col-start-1 m-3 rounded-md border-4 border-solid border-pink-600 bg-pink-400 p-3 text-center text-3xl text-white">
+      <h2 className="col-span-2 col-start-1 m-3 rounded-md bg-pink-400 p-3 text-center text-3xl text-white">
         Left
       </h2>
-      <h2 className="col-span-2 col-start-3 m-3 rounded-md border-4 border-solid border-green-600 bg-green-400 p-3 text-center text-3xl text-white">
+      <h2 className="col-span-2 col-start-3 m-3 rounded-md bg-green-400 p-3 text-center text-3xl text-white">
         Center
       </h2>
-      <h2 className="col-span-2 col-start-5 m-3 rounded-md border-4 border-solid border-indigo-600 bg-indigo-400 p-3 text-center text-3xl text-white">
+      <h2 className="col-span-2 col-start-5 m-3 rounded-md bg-indigo-400 p-3 text-center text-3xl text-white">
         Right
       </h2>
       <p className="col-span-1 col-start-1 m-3 rounded-md border-2 border-pink-200 p-3 text-center">
@@ -43,11 +43,11 @@ export default function App() {
         doloremque qui voluptas doloribus natus eius vero totam dolorem facere
         deleniti.
       </p>
-      <p className="col-span-1 col-start-1 m-3 rounded-md border-2 border-solid border-pink-300 bg-pink-100 p-3 text-center text-black">
+      <p className="col-span-1 col-start-1 m-3 rounded-md bg-pink-100 p-3 text-center text-black">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
         pariatur eligendi omnis!
       </p>
-      <p className="col-span-4 col-start-2 m-3 rounded-md border-2 border-solid border-green-300 bg-green-100 p-3 text-center text-black">
+      <p className="col-span-4 col-start-2 m-3 rounded-md bg-green-100 p-3 text-center text-black">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
         pariatur eligendi omnis! Soluta quis culpa iure eaque reiciendis cumque,
         doloremque qui voluptas doloribus natus eius vero totam dolorem facere
@@ -59,7 +59,7 @@ export default function App() {
         suscipit sequi dolore voluptates est obcaecati deserunt consequatur
         itaque! Molestiae, dolore doloremque ex nemo illo obcaecati.
       </p>
-      <p className="col-span-1 col-start-6 m-3 rounded-md border-2 border-solid border-indigo-300 bg-indigo-100 p-3 text-center text-black">
+      <p className="col-span-1 col-start-6 m-3 rounded-md bg-indigo-100 p-3 text-center text-black">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
         pariatur eligendi omnis!
       </p>
