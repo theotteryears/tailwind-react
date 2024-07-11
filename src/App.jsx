@@ -1,8 +1,8 @@
 export default function App() {
   return (
-    <div className="grid grid-cols-6">
-      <h1 className="col-span-4 col-start-2 m-3 rounded-md bg-yellow-100 p-4 text-center text-4xl text-black">
-        LAYOUT TEST
+    <div className="mx-12 grid grid-cols-6">
+      <h1 className="col-span-4 col-start-2 m-3 rounded-md border-2 border-black bg-white p-3 text-center text-3xl text-black">
+        Layout Practice
       </h1>
       <h2 className="col-span-2 col-start-1 m-3 rounded-md bg-pink-400 p-3 text-center text-3xl text-white">
         Left
@@ -13,11 +13,9 @@ export default function App() {
       <h2 className="col-span-2 col-start-5 m-3 rounded-md bg-indigo-400 p-3 text-center text-3xl text-white">
         Right
       </h2>
-      <p className="col-span-1 col-start-1 m-3 rounded-md border-2 border-pink-200 p-3 text-center">
+      <p className="col-span-1 col-start-1 m-3 place-content-center rounded-md border-2 border-pink-200 p-3 text-center">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
-        inventore. Rerum quod debitis accusamus velit odio sed earum voluptas
-        facere laudantium voluptates eaque voluptatem animi eligendi doloremque
-        necessitatibus, quisquam quia.
+        inventore.
       </p>
       <p className="col-span-1 col-start-2 m-3 p-3 text-center">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
@@ -25,7 +23,7 @@ export default function App() {
         inventore numquam a maiores? Dolores eaque corrupti enim voluptas ad
         delectus ipsam libero.
       </p>
-      <p className="col-span-2 col-start-3 m-3 rounded-md border-2 border-green-200 p-3 text-center">
+      <p className="col-span-2 col-start-3 m-3 place-content-center rounded-md border-2 border-green-200 p-3 text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro
         quos laborum impedit. Atque, officia excepturi? Provident vitae, magnam
         consequuntur, harum eaque officia aliquam earum nihil hic quaerat,
@@ -37,29 +35,23 @@ export default function App() {
         veniam quae. Doloribus, inventore repudiandae atque voluptatum rerum
         quos at ipsam dolorem culpa!
       </p>
-      <p className="col-span-1 col-start-6 m-3 rounded-md border-2 border-indigo-200 p-3 text-center">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-        pariatur eligendi omnis! Soluta quis culpa iure eaque reiciendis cumque,
-        doloremque qui voluptas doloribus natus eius vero totam dolorem facere
-        deleniti.
-      </p>
-      <p className="col-span-1 col-start-1 m-3 rounded-md bg-pink-100 p-3 text-center text-black">
+      <p className="col-span-1 col-start-6 m-3 place-content-center rounded-md border-2 border-indigo-200 p-3 text-center">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
         pariatur eligendi omnis!
       </p>
-      <p className="col-span-4 col-start-2 m-3 rounded-md bg-green-100 p-3 text-center text-black">
+      <p className="col-span-1 col-start-1 m-3 place-content-center rounded-md bg-pink-100 p-6 text-center text-black">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+        pariatur eligendi omnis!
+      </p>
+      <p className="col-span-4 col-start-2 m-3 place-content-center rounded-md bg-green-100 p-3 text-center text-black">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
         pariatur eligendi omnis! Soluta quis culpa iure eaque reiciendis cumque,
         doloremque qui voluptas doloribus natus eius vero totam dolorem facere
         deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
         totam consectetur, vero repudiandae nesciunt soluta iste ea dignissimos
-        inventore, tenetur eaque dicta recusandae perspiciatis qui! Vel
-        consequuntur necessitatibus consequatur optio! Lorem ipsum dolor sit,
-        amet consectetur adipisicing elit. Dolor numquam ipsum ut, provident ab
-        suscipit sequi dolore voluptates est obcaecati deserunt consequatur
-        itaque! Molestiae, dolore doloremque ex nemo illo obcaecati.
+        inventore, tenetur eaque dicta recusandae perspiciatis qui!
       </p>
-      <p className="col-span-1 col-start-6 m-3 rounded-md bg-indigo-100 p-3 text-center text-black">
+      <p className="col-span-1 col-start-6 m-3 place-content-center rounded-md bg-indigo-100 p-6 text-center text-black">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
         pariatur eligendi omnis!
       </p>
